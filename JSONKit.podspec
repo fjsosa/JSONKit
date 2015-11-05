@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/fjsosa/JSONKit', :tag => 'v1.5.0' }
 
   s.source_files = 'JSONKit.*'
-  s.requires_arc = true
+  s.requires_arc = false
 end
