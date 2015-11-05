@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author   = 'John Engelhart'
   s.source   = { :git => 'https://github.com/fjsosa/JSONKit', :tag => 'v1.5.0' }
 
-  s.source_files = 'JSONKit.*'
+  s.source_files = '*.{h,m}'
   s.requires_arc = false
 end
